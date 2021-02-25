@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Name=Tutanota
+GenericName=Tutanota Email Web App
+Exec=sh -c "/home/\$USER/scripts/ffapp.sh Tutanota https://mail.tutanota.com mail.tutanota.com"
+StartupWMClass="Tutanota"
+Icon=tutanota-desktop
+Terminal=false
+Type=Application
+MimeType=text/html;text/xml;application/xhtml+xml;application/vnd.mozilla.xul+xml;text/mml;x-scheme-handler/http;x-scheme-handler/https;
+StartupNotify=true
+Categories=Network;Mail;Email;Messaging;
+Keywords=web;browser;internet;email;mail;mailbox;
+Actions=new-window
